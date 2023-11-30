@@ -6,7 +6,6 @@
 .sidebar-container {
   background-color: rgb(242, 242, 242);
   width: 35%;
-  display: none;
 }
 
 .sd-title {
@@ -30,7 +29,11 @@
 
 .sd-links li {
   margin-bottom: 30px;
-  padding-left: 10px;
+  padding: 10px 20px;
+  width: 50%;
+}
+.sd-links li:hover {
+  background: rgb(22, 22, 242, 0.21);
 }
 .sd-links a {
   text-decoration: none;
